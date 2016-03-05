@@ -1,0 +1,44 @@
+<div >
+
+	<div class="row">
+	  <div class="col-md-6"> 
+			<h3>Triangulo</h3>  
+		    <hr>
+
+			<div class="form-group">
+			    <label class="sr-only" for="exampleInputAmount1"></label>
+			    <div class="input-group">
+			      <div class="input-group-addon">Altura</div>
+			      <input type="number" ng-model="Altura" class="form-control" id="exampleInputAmount1" placeholder="Altura">
+			      <div class="input-group-addon">M</div>
+			    </div>
+			  </div>
+
+			  <div class="form-group">
+			    <label class="sr-only" for="exampleInputAmount2"></label>
+			    <div class="input-group">
+			      <div class="input-group-addon">Base</div>
+			      <input type="number" ng-model="Base" class="form-control" id="exampleInputAmount2" placeholder="Base">
+			      <div class="input-group-addon">M</div>
+			    </div>
+			  </div>
+
+			  <div class="form-group">
+			    <label class="sr-only" for="exampleInputAmount3"></label>
+			    <div class="input-group">
+			      <div class="input-group-addon">La Superficie del Area es</div>
+			      <input type="number" style="text-align:right" value="{{Area() }}" class="form-control" id="exampleInputAmount3" placeholder="Total del area">
+			      <div class="input-group-addon">M&#178</div>
+			    </div>
+			  </div>
+
+		    
+	   </div>
+	  <div class="col-md-6">
+	  	
+	  	 <div ng-style="dibujo"> </div>  
+	  </div>
+	</div>
+   
+   
+</div>
